@@ -1,0 +1,54 @@
+@font-face{
+    font-family: 'Erica One';
+    src: url('https://fonts.googleapis.com/css2?family=Erica+One&display=swap');
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: antiquewhite;
+}
+
+main{
+    background-color: #9D4EDD;
+    width: 60%;
+    height: 85vh;
+    padding-top: 15vh;
+    margin: 0% 20%;
+}
+
+h2{
+    font-size: 3em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    display: inline-block;
+}
+
+.circle{
+    height: 20vh;
+    width: 20vh;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle > img{
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 75%;
+}
+
+main a div{
+    color: white;
+    text-decoration: none;
+    padding-top: 10vh;
+    padding-left: 10vw;
+}
+
+span + h2{
+    padding-left: 5vw;
+}
+
+h2 + span{
+    margin-left: 5vw;
+}
