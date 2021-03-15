@@ -5,15 +5,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
+header, footer {
     width: 80%;
     margin: 0% 10%;
     overflow: hidden;
     background-color: #273238;
 }
 
-header a {
+header a , footer a, footer p{
     float: left;
+    font-weight: bold;
     color: #f2f2f2;
     padding: 1% 2%;
     text-decoration: none;
@@ -26,13 +27,23 @@ header a:hover {
 }
 
 header a.active {
-    background-color: #4CAF50;
+    background-color: #79C3E0;
     color: white;
+    font-weight: bold;
 }
 
 a > p{
     margin-top: 1.5vh;
 }
+
+
+footer { 
+    position: absolute; /* Change it to */
+    position: static;  
+    bottom: 0; 
+    width: 80%; 
+    /* Height of the footer*/  
+} 
 
 header a img{
     height:100%;
